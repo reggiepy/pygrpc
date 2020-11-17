@@ -1,0 +1,9 @@
+/.idea/*
+/log/ucloud_action.log
+/log/ucloud_server.log
+/log/ucloud_uvicorn.log
+*.pyc
+/venv
+/log/*.log
+/static/*
+__pycache__
