@@ -10,9 +10,7 @@ gRPC 是 Google 开源的基于 Protobuf 和 Http2.0 协议的通信框架，Goo
 pip install grpcio
 pip install protobuf
 pip install grpcio_tools
-1
-2
-3
+
 编写协议文件vim compute.proto
 
     syntax = "proto3"; //说明使用proto3语法定义协议
@@ -53,19 +51,8 @@ compute_pb2_grpc.py  compute_pb2.py  compute.proto
 # compute.proto 协议文件
 # compute_pb2.py 里面有消息序列化类
 # compute_pb2_grpc.py 包含了服务器 Stub 类和客户端 Stub 类，以及待实现的服务 RPC 接口。
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
+
+
 编写服务器
 
 import time
